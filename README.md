@@ -1,10 +1,10 @@
 # Desktop Calculator
 
-A C# Windows Forms calculator that combines numeric and keyboard input with arithmetic, scientific operations, answer recall, clipboard copying, speech, and click sounds. The repository preserves the original coursework solution and form/resource names.
+A C# Windows Forms calculator that combines numeric and keyboard input with arithmetic, scientific operations, answer recall, clipboard copying, speech, and click sounds.
 
 **Stack:** C# · Windows Forms · .NET Framework 4.7.2 · Windows speech components
 
-## Features in the source
+## Features
 
 - Addition, subtraction, multiplication, division, and modulus.
 - Square, square root, powers, logarithms, reciprocal, and sign changes.
@@ -26,7 +26,7 @@ The solution targets .NET Framework, not modern cross-platform .NET. Speech depe
 
 Enter a number, select an operation, enter the second number, then evaluate. Use the mode controls to expose the additional operations and choose degree or radian interpretation before trigonometric calculations. Try answer recall and clipboard copy separately from the main calculation controls.
 
-Suggested manual checks, **not recorded test passes**: evaluate `2 + 3`, clear the display, recall an answer, compare degree/radian behaviour, toggle sound, and check keyboard input. Also inspect division by zero and invalid domains such as logarithms of non-positive values before relying on results.
+To explore the interface, evaluate `2 + 3`, clear the display, recall an answer, compare degree/radian behaviour, toggle sound, and check keyboard input. Also inspect division by zero and invalid domains such as logarithms of non-positive values before relying on results.
 
 ## Code guide
 
@@ -38,8 +38,6 @@ Suggested manual checks, **not recorded test passes**: evaluate `2 + 3`, clear t
 | [Resources](Calculator_222257U/Resources/) | Click sound and calculator icon |
 | [Properties](Calculator_222257U/Properties/) | Assembly settings and resource accessors |
 
-## Project context and verification
+## Author
 
-Preserved from Chua Jia Sheng's supplied `Calculator_222257U` coursework project. Supporting classroom examples are published separately in [winforms-reference-examples](https://github.com/ChuaJiaSheng/winforms-reference-examples).
-
-Project/resource references were checked during preparation. The Windows GUI, speech, sound, and numerical edge cases have not been built or exercised here. Compiled executables and IDE state are excluded; the repository contains source for local inspection and building.
+Chua Jia Sheng.
